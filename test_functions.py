@@ -11,7 +11,10 @@ def test_add():
 def test_subtract():
     assert subtract(3,2) == 1
 
-
+ def test_multiply():
+        assert multiply(3,3) ==9
+        assert multiply(1,3) ==3
+        
 # def test_convert_fahrenheit_to_celsius():
 #    assert f2c(32) == 0
 #    assert f2c(122) == pytest.approx(50)
